@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ----------------------- Introduction Part Style ----------------------- */
+
+.intro-part{
+    background-color: rgb(95, 95, 233);
+    height: 500px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+}
+.intro-part img{
+    width: 556.01px;
+    height: 438px;
+    padding-top: 40px;
+    padding-right: 102px;
+}
+.intro{
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    padding-left: 155px;
+    padding-top: 150px;
+    Width :485px;
+    Height :230px;
+}
+.streaming-link{
+    position: absolute;
+    height: 44px;
+    width: 148px;
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 376px;
+    margin-left: 150px;
+}
+
+    /* -------------------Hover Part-----------------------  */
+
+.banner-hover:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
